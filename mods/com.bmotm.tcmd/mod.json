@@ -9,5 +9,6 @@
   },
   "summary": "A mod for using forbidden commands",
   "tags": ["cheat", "utility"],
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "package": "tcmd.luaria"
 }
