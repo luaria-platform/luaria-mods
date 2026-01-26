@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#Auto-generates index.json from mod directories.
 #Run: python update_index.py
 
 import json
@@ -10,7 +9,7 @@ def update_index():
     mods_dir = "mods"
     index_path = "index.json"
     
-    mod_ids = []
+    mods_data = []
     
     for item in os.listdir(mods_dir):
         item_path = os.path.join(mods_dir, item)
@@ -24,7 +23,7 @@ def update_index():
                 mod_id = mod_data.get("id")
                 if mod_id:
                     if item == mod_id:
-                        mod_ids.append(mod_id)
+                        mods_data.append(mod_data)
                     else:
                         print(f"Warning: Directory name '{item}' should match mod ID '{mod_id}'")
                 else:
@@ -35,19 +34,20 @@ def update_index():
             except Exception as e:
                 print(f"Error reading {mod_json_path}: {e}")
     
-    mod_ids.sort()
+    mods_data.sort(key=lambda x: x.get("id", ""))
     
     index_data = {
         "schema_version": 1,
         "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "mods": mod_ids
+        "mods": mods_data
     }
     
     with open(index_path, 'w') as f:
         json.dump(index_data, f, indent=2)
 
-    print(f"Updated index.json with {len(mod_ids)} mods")
-    if mod_ids:
+    print(f"Updated index.json with {len(mods_data)} mods")
+    if mods_data:
+        mod_ids = [mod.get("id", "unknown") for mod in mods_data]
         print("Mods:", ", ".join(mod_ids))
     else:
         print("No mods found")
