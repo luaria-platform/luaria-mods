@@ -2,7 +2,7 @@
   "name": "LuAria",
   "identifier": "com.rednick16.luaria",
   "website": "https://luaria.app/",
-  "lastUpdated": "2026-02-01T05:23:51.990273Z",
+  "lastUpdated": "2026-02-01T06:10:31.368790Z",
   "mods": [
     {
       "id": "com.bmotm.tcmd",
@@ -11,7 +11,7 @@
       "version": "1.1.0",
       "dependencies": {
         "luaria": ">=0.6b2",
-        "terraria": ">=1.4.4"
+        "terraria": ">=1.4.5"
       },
       "summary": "A mod for using forbidden commands",
       "tags": [
