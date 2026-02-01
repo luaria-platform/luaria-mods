@@ -9,6 +9,6 @@
   },
   "summary": "A mod for using forbidden commands",
   "tags": ["cheat", "utility"],
-  "icon": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.bmotm.tcmd/icon.png?raw=true",
-  "package": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
+  "iconURL": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.bmotm.tcmd/icon.png?raw=true",
+  "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
 }

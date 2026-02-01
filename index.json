@@ -1,6 +1,8 @@
 {
-  "schema_version": 1,
-  "last_updated": "2026-01-26T17:24:50.669734Z",
+  "name": "LuAria",
+  "identifier": "com.rednick16.luaria",
+  "website": "https://luaria.app/",
+  "lastUpdated": "2026-01-26T17:24:50.669734Z",
   "mods": [
     {
       "id": "com.bmotm.tcmd",
@@ -16,8 +18,10 @@
         "cheat",
         "utility"
       ],
-      "icon": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.bmotm.tcmd/icon.png?raw=true",
-      "package": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
+      "iconURL": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.bmotm.tcmd/icon.png?raw=true",
+      "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
     }
+  ],
+  "featuredMods": [
   ]
 }

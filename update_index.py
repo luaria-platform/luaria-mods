@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Run: python update_index.py
+# Run: python update_index.py
 
 import json
 import os
@@ -37,9 +37,12 @@ def update_index():
     mods_data.sort(key=lambda x: x.get("id", ""))
     
     index_data = {
-        "schema_version": 1,
-        "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "mods": mods_data
+        "name": "LuAria",
+        "identifier": "com.rednick16.luaria",
+        "website": "https://luaria.app/",
+        "lastUpdated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "mods": mods_data,
+        "featuredMods": []
     }
     
     with open(index_path, 'w') as f:
