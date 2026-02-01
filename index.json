@@ -2,7 +2,7 @@
   "name": "LuAria",
   "identifier": "com.rednick16.luaria",
   "website": "https://luaria.app/",
-  "lastUpdated": "2026-01-26T17:24:50.669734Z",
+  "lastUpdated": "2026-02-01T05:23:51.990273Z",
   "mods": [
     {
       "id": "com.bmotm.tcmd",
@@ -22,6 +22,5 @@
       "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
     }
   ],
-  "featuredMods": [
-  ]
+  "featuredMods": []
 }
