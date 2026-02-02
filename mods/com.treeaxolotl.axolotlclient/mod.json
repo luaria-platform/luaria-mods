@@ -1,0 +1,14 @@
+{
+  "id": "com.treeaxolotl.axolotlclient",
+  "name": "Axolotl Client",
+  "developer": "TreeAxolotl",
+  "version": "1.9",
+  "dependencies": {
+    "luaria": ">=0.5b2",
+    "terraria": ">=1.4.5"
+  },
+  "summary": "",
+  "tags": ["cheat", "utility"],
+  "iconURL": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.treeaxolotl.axolotlclient/icon.png?raw=true",
+  "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.treeaxolotl.axolotlclient/Axolotl%20Client.mod.luaria"
+}
