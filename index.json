@@ -2,7 +2,7 @@
   "name": "LuAria",
   "identifier": "com.rednick16.luaria",
   "website": "https://luaria.app/",
-  "lastUpdated": "2026-02-02T09:18:42.677857Z",
+  "lastUpdated": "2026-02-02T10:19:48.225068Z",
   "mods": [
     {
       "id": "com.bmotm.tcmd",
@@ -20,6 +20,23 @@
       ],
       "iconURL": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.bmotm.tcmd/icon.png?raw=true",
       "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.bmotm.tcmd/tcmd.luaria"
+    },
+    {
+      "id": "com.treeaxolotl.axolotlclient",
+      "name": "Axolotl Client",
+      "developer": "TreeAxolotl",
+      "version": "1.9",
+      "dependencies": {
+        "luaria": ">=0.5b2",
+        "terraria": ">=1.4.5"
+      },
+      "summary": "",
+      "tags": [
+        "cheat",
+        "utility"
+      ],
+      "iconURL": "https://github.com/luaria-platform/luaria-mods/blob/main/mods/com.treeaxolotl.axolotlclient/icon.png?raw=true",
+      "downloadURL": "https://github.com/luaria-platform/luaria-mods/raw/refs/heads/main/mods/com.treeaxolotl.axolotlclient/Axolotl%20Client.mod.luaria"
     }
   ],
   "featuredMods": []
