@@ -2,7 +2,7 @@
   "id": "com.bmotm.tcmd",
   "name": "Cheat Commands",
   "developer": "bmotm",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "dependencies": {
     "luaria": ">=0.6b2",
     "terraria": ">=1.4.5"
