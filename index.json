@@ -2,13 +2,13 @@
   "name": "LuAria",
   "identifier": "com.rednick16.luaria",
   "website": "https://luaria.app/",
-  "lastUpdated": "2026-02-01T06:10:31.368790Z",
+  "lastUpdated": "2026-02-02T08:33:44.391276Z",
   "mods": [
     {
       "id": "com.bmotm.tcmd",
       "name": "Cheat Commands",
       "developer": "bmotm",
-      "version": "1.1.0",
+      "version": "1.1.4",
       "dependencies": {
         "luaria": ">=0.6b2",
         "terraria": ">=1.4.5"
